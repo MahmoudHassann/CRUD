@@ -1,0 +1,42 @@
+.box{
+	background-color:#EEE;
+	border:none;
+	text-align:center;
+	padding:30px;
+}
+input {
+	border-radius :5px;
+	border:1px solid #DDD;
+	padding:5px;
+	width:80%;
+	margin:auto;
+	font-size:15px;
+	max-height:2em;
+}
+input:hover{
+	box-shadow:0px 0px 12px -7px #888;
+}
+.btn{
+	padding:10px 15px;
+	font-size:15px;
+	margin:15px 5px;
+	cursor: pointer;
+	border-radius:5px;
+	max-width:fit-content;
+}
+.btn:hover{
+	box-shadow: 2px 5px 3px 0px #888;
+}
+.alert {
+	padding:5px;
+	margin:10px;
+	width:80%;
+	font-size:18px;
+	border-radius:5px;
+	text-align:center;
+}
+.column{
+    background:linear-gradient(#EEE,#FFF);
+	border:none;
+	padding:30px;
+}

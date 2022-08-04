@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>JS3</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h3>Bookmarker</h3>
+      </div>
+    </header>
+    <div class="container">
+      <div class="box">
+        <div class="column">
+          <h2>Bookmark your favorite sites</h2>
+          <p>Site Name</p>
+          <input id="siteName" placeholder="Bookmark Name" type="text" />
+          <p class="alert alert-error m-auto" id="nameError"></p>
+          <p>Site URL</p>
+          <input id="siteUrl" placeholder="website URL" type="text" />
+          <p class="alert alert-error m-auto" id="urlError"></p>
+          <div class="m-auto">
+            <button class="btn btn-primary" onclick="submit()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-center mt-5">Search Sites Here</h2>
+    <input
+      type="text"
+      onkeyup="search()"
+      id="search"
+      placeholder="Search...."
+      class="form-control w-50 mx-auto"
+    />
+    <div class="container mt-5">
+      <div id="List" class="column"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <hr />
+        <p>&copy; 2022 Bookmarker Inc.</p>
+      </div>
+    </footer>
+
+    <script src="./bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
